@@ -25,6 +25,7 @@
                     <li><img src="/assets/images/JavaScript-Symbol.png" alt="JavaScript"></li>
                     <li><img src="/assets/images/1_TY9uBBO9leUbRtlXmQBiug.png" alt="NodeJS"></li>
                     <li><img src="/assets/images/express-js-01-1-q05uw85vt1jqloiy.png" alt="ExpresJS"></li>
+                    
                 </ul>
             </div>
         </div>
@@ -97,41 +98,47 @@
         </div>
     </section>
     <section class="seccion_contacto">
-        <form class="container">
-            <h1>Contáctame😁📱</h1>
-            <div class="row">
+        
+            <form class="container">
+                <h1>Contáctame😁📱</h1>
+                <div class="row">
                 <div class="col">
                   <input type="text" class="form-control" placeholder="First name" aria-label="Nombre">
                 </div>
                 <div class="col">
                   <input type="text" class="form-control" placeholder="Last name" aria-label="Apellido">
                 </div>
+              </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"></label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico">
+                  <div id="emailHelp" class="form-text">Nunca compartiremos tu mail con nadie más</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPhone" class="form-label"></label>
+                    <input type="phone" class="form-control" id="exampleInputPhone" aria-describedby="phonelHelp" placeholder="Teléfono">
+                    <div id="phonelHelp" class="form-text">Nunca compartiremos tu telefono con nadie más</div>
+                  </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Aceptas que te enviemos boletines y publicidad</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+              <div class="imagen_contacto">
+                <img src="/assets/images/software-developer-6521720_1920.jpg" alt="">
             </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"></label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico">
-              <div id="emailHelp" class="form-text">Nunca compartiremos tu mail con nadie más</div>
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPhone" class="form-label"></label>
-                <input type="phone" class="form-control" id="exampleInputPhone" aria-describedby="phonelHelp" placeholder="Teléfono">
-                <div id="phonelHelp" class="form-text">Nunca compartiremos tu telefono con nadie más</div>
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Aceptas que te enviemos boletines y publicidad</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-        <div class="imagen_contacto">
-            <img src="/assets/images/software-developer-6521720_1920.jpg" alt="">
-        </div>
+        
+        
     </section>
+
     <footer>
         <div class="contenedor_footer">
             <p>&copy; 2024 Hugo Duran</p>
         </div>
     </footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
